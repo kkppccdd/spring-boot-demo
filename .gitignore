@@ -31,7 +31,6 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 ### JetBrains template
-
 # Created by https://www.gitignore.io/api/jetbrains
 
 ### JetBrains ###
@@ -87,3 +86,4 @@ fabric.properties
 # *.ipr
 
 # End of https://www.gitignore.io/api/jetbrains
+/.idea/
