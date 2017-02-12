@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.1.RELEASE'
+}
+
+group 'me.raycai'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+
+
+sourceCompatibility = 1.8
+
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.1.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
